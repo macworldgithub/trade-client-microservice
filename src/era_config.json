@@ -1,10 +1,23 @@
 {
-  "api_base_url": "https://api.example.com",
-  "timeout": 30,
-  "retry_attempts": 3,
-  "headless": true,
-  "credentials": {
-    "username": "user",
-    "password": "password"
+  "erapower": {
+    "url": "https://c2892-erapower.pentana.cloud/base/templates/vIndependent.htm",
+    "username": "shauns",
+    "password": "Booran2",
+    "workstation": "200",
+    "headless": false,
+    "timeout": 30000
+  },
+  "partscheck": {
+    "login_url": "https://www.partscheck.com.au/global/login.php",
+    "dashboard_url": "http://v1.partscheck.com.au/app/dashboard.php",
+    "username": "PAK1077",
+    "password": "Catfish0125",
+    "user_id": 23915,
+    "user_name": "Daniel Turner",
+    "check_interval": 120
+  },
+  "portal": {
+    "api_base_url": "http://localhost:3001/api/v1",
+    "timeout": 15000
   }
 }
