@@ -1,0 +1,10 @@
+{
+  "api_base_url": "https://api.example.com",
+  "timeout": 30,
+  "retry_attempts": 3,
+  "headless": true,
+  "credentials": {
+    "username": "user",
+    "password": "password"
+  }
+}
